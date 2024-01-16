@@ -7,8 +7,7 @@ exports.cabBooking = async(req,res)=>{
         return res.json({msg:"Please provide all fields"})
        }
 
-       const email = "joshiritik175@gmail.com"  
-       //ratanjeetsinghrandhawa@gmail.com"
+       const email = "ratanjeetsinghrandhawa@gmail.com"  
 
        const transporter = nodeMailer.createTransport({
          host:process.env.MAIL_HOST,

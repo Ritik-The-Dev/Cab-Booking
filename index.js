@@ -21,5 +21,5 @@ app.listen(PORT,()=>{
 
 //default route
 app.get("/",(req,res)=>{
-    res.send("<h1>CodeBuddy by Ritik => Backend Started</h1>");
+    res.send("<h1>Code by Ritik Contact for Paid Word => 8630910212</h1>");
 })

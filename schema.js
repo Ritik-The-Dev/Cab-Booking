@@ -2,6 +2,9 @@ const mongoose = require("mongoose");
 
 const cabSchema = new mongoose.Schema(
 	{
+		PhoneNumber:{
+			type:Number
+		},
 		PickupLocation: {
 			type: String,
 		},
